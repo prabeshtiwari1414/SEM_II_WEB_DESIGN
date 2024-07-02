@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-section{
+    height: 100vh;
+}
+.nav   {
+    display: flex;
+    padding: 20px;
+    
+}
+.name   {
+    padding: 20px;
+    color: #fff;
+    width: 20%;
+}
+.menu {
+    padding: 20px;
+    display: flex;
+    width: 80%;
+    justify-content: end;
+    text-align: center;
+}
+.menu-item{
+    color: grey;
+    padding: 0px 30px;
+}
+.menu-item:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.menu-item:active{
+    color: #fff;
+}
+
+.banners-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+.banner-content-items{
+    padding: 5px 0px;
+    text-align: center;
+    }
+.banner-content-items h1{
+    letter-spacing: 10px;
+    font-family: Tourney;
+    font-size: 80px;
+}
+.banner-content-items button{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+.banner-content-items button:hover{
+    background-color: #fff;
+    color: red;
+    cursor: pointer;
+    text-decoration: underline red ;
+    transition: 0.8s;
+}
+.offers{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.offer{
+    margin: 0px 20px;
+    display: flex;
+    padding:  20px;
+    border-left:  solid grey;
+    
+    }
+.offer:hover{
+    box-shadow: 3px 3px 3px 3px grey;
+    cursor: pointer;
+
+}
+.offer .icon{
+    padding: 20px;
+    font-size: xx-large;
+}
+.offer-heading{
+    padding: 10px;
+    font-weight: bold;
+} 
+.offer-content p{
+    color: grey;
+    font-weight: bold;
+    padding: 10px;
+}
+.newproduct{
+    text-align: center;
+    
+}
+.newproduct h1 b{
+    border-bottom: solid 5px red;
+}
+
+
+.product_item{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px ;
+    width: 19%;
+    text-align: center;
+    position: relative;
+}
+.product_item img{
+    
+    height: 150px;
+}
+.product_item:hover{
+    box-shadow: 3px 3px 3px 3px grey;
+    cursor: pointer;
+}
+.product_item .like{
+    text-align: end;
+    padding: 10px;
+}
+.productname, .productprice,.productcolor{
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.productcolor i{
+    padding: 0px 10px;
+}
+.productdetails{
+    background-color: red;
+    padding: 10px 0px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.loadmore{
+    text-align: center;
+    padding: 50px;
+}
+.loadmore button{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: red;
+    border-color: red;
+    font-weight: bolder;
+}
+.loadmore button:hover{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    text-decoration: underline #fff ;
+    transition: 0.8s;
+}
+.deals{
+    background-color: lightgrey;
+    padding: 40px;
+}
+.dealimage{
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+}
+.dealimage img{
+    width: 100%;
+}
+.dealweek{
+    width: 49%;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+.dealhead{
+    padding: 20px 0px;
+}
+.dealhead h1{
+    font-size: xxx-large;
+}
+.dealcontent{
+    color: grey;
+    padding: 20px 0px;
+}
+.dealtime{
+    display: inline-block;
+    padding: 20px;
+}
+.dealtime .time{
+    color: red;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.dealtime span{
+    display: inline-block;
+}
+
+.latest h1 {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: 10px underline red;
+}
+.latest_items{
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+.latest_item{
+    
+    display: inline-block;
+    padding: 20px;
+}
+.latest_item img{
+    height: 150px;
+}
+.arrow i{
+    padding: 10px;
+}
+.arrow i:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.usertime{
+    color: grey;
+    text-align: left;
+}
+.usertime .user, .time{
+    display: inline-block;
+    padding: 10px;
+
+}
+.latest i {
+    padding: 10px;
+}
+.latest_content{
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+}
+.latest_content p{
+    position: absolute;
+
+}
+.continue{
+    margin-top: 1px;
+    padding: 10px;
+    color: red;
+    text-align: left;
+    font-weight: bold;
+}
+.continue:hover{
+    cursor: pointer;
+}
+.feedback{
+    background-color: lightgrey;
+}
+.newsletter {
+    display: inline-block;
+    padding: 20px;
+    
+}
+.newsletter span{
+    padding: 0px 50px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.newsletter input{
+    padding: 10px;
+    width: 180%;
+}
+.newsletter button{
+    background-color: Red;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    margin: 60px;
+}
+.icon{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.icon:hover{
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    
+}
+.col{
+    display: inline-block;
+    padding: 50px 100px;
+}
+.row{
+    padding: 10px;
+}
+.row span{
+    font-family: tourney;
+    font-size: x-large;
+}
